@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react"; // Added useRef
 import { BsLink45Deg } from "react-icons/bs";
 import { achievements } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
-import { FaYoutube } from "react-icons/fa";
+import { FaYoutube, FaLink } from "react-icons/fa";
 import { TiNews } from "react-icons/ti";
 import styles from "../style";
 
@@ -157,6 +157,16 @@ const AchievementCard = (props) => {
             rel="noopener noreferrer"
           >
             <AiFillGithub size="1.5rem" className="inline" />
+          </a>
+        )}
+        {props.link && (
+          <a
+            className="inline-flex items-center mr-2 hover:text-teal-200"
+            href={props.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLink size="1.5rem" className="inline" />
           </a>
         )}
         {props.project && (

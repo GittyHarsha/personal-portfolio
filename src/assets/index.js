@@ -1,5 +1,5 @@
 import parthmittal from "./parth.svg";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./profile-pic.jpeg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
@@ -16,7 +16,7 @@ import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
-import oracle from "./oracle.jpg";
+import microsoft from "./microsoft.png";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import averlon from "./averlon.jpg";
@@ -30,7 +30,12 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
-
+import dailyplanner from "./dailyplanner.png";
+import codeforces from "./codeforces.png";
+import codechef from "./codechef.jpeg";
+import leetcode from "./leetcode.png";
+import web_club from "./web_club.jpeg";
+import carnatic_music from "./carnatic_music.jpeg";
 export {
   menu,
   close,
@@ -50,7 +55,7 @@ export {
   placeicon,
   recruitment,
   huntly,
-  oracle,
+  microsoft,
   comicify_ai,
   greentrust,
   averlon,
@@ -63,5 +68,11 @@ export {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  dailyplanner,
+  codeforces,
+  codechef,
+  leetcode,
+  web_club,
+  carnatic_music,
 };

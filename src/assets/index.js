@@ -1,4 +1,4 @@
-import parthmittal from "./parth.svg";
+import harsha_narayana_p from "./harsha_narayana_p.png";
 import profilePic from "./profile-pic.jpeg";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -49,7 +49,7 @@ export {
   genesis,
   portfolio,
   cdc,
-  parthmittal,
+  harsha_narayana_p,
   profilePic,
   chargeswap,
   placeicon,

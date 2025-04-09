@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { parthmittal } from "../assets";
+import { harsha_narayana_p } from "../assets";
 
 const Loading = () => {
   return (
@@ -15,7 +15,7 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={parthmittal} alt="Harsha Narayana" className="w-[80px] h-[80px]" />
+      <img src={harsha_narayana_p} alt="Harsha Narayana" className="w-[80px] h-[80px]" />
     </motion.div>
   );
 };

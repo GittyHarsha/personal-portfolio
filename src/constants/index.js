@@ -152,7 +152,7 @@ export const achievements = [
     icon: codeforces,
     event: "",
     position: "Expert",
-    content1: "Msx rating 1602",
+    content1: "Max rating 1602",
     link: "https://codeforces.com/profile/HarshaNP",
   },
   {
